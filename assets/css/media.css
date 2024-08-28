@@ -1,0 +1,81 @@
+@media only screen and (max-width: 1020px) {
+    .fNavItem i , .navButtons .navItem i{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 750px) {
+	.mobileNavBar, .mobileNav {
+		display: none !important;
+	}
+}
+
+@media only screen and (max-width: 850px) {
+	.pContent {
+		grid-template-columns: repeat(1, 2fr);
+	}
+}
+
+@media only screen and (max-width: 750px) {
+	.navButtons {
+		display: none;
+	}
+	.mobileNavBar {
+		display: block !important;
+		color: var(--accentColor);
+		font-size: 48px;
+		cursor: pointer;
+	}
+	.pWrapper {
+	    padding: 10px 20px 10px 20px;
+	}
+}
+
+@media only screen and (max-width: 910px) {
+	.footerElemetns {
+		flex-direction: column;
+	}
+	.footerRight {
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 560px) {
+	.fNavButtons {
+		flex-direction: column;
+	}
+	.pWrapper {
+	    padding: 5px 10px 5px 10px;
+	}
+}
+
+@media only screen and (max-width: 1000px) {
+	.donateContentBlock, .ucpContentBlock {
+    	width: 100%;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+	.htpBlock {
+		display: flex;
+    	flex-direction: column;
+	}
+}
+
+@media only screen and (min-width: 650px) and (max-width: 1320px) {
+	.htpBlock {
+		display: grid;
+		justify-content: center;
+		justify-items: center;
+		grid-template-columns: 50% 2fr;
+	}
+}
+
+@media only screen and (max-width: 1320px) {
+	.monitorSection {
+		width: 100%;
+	}
+	.blockhow2 {
+		margin-bottom: 100px;
+	}
+}
